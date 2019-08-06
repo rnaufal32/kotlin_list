@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Orang Kaya</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="from">Asal</string>
+    <string name="description">Asal</string>
+    <string name="about">About</string>
+    <string name="foto">Foto</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nama_panggilan">Nama Panggilan</string>
+    <string name="profesi">Profesi</string>
+    <string name="biografi">Biografi</string>
+    <string name="detail_activity">Detail</string>
+    <string name="about_acitivity">Tentang</string>
+</resources>

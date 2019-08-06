@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".DetailActivity" android:paddingStart="10dp" android:paddingEnd="10dp" android:paddingTop="10dp">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView"
+                    android:layout_weight="1" android:contentDescription="@string/foto"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:paddingStart="@dimen/activity_horizontal_margin">
+                <TextView
+                        android:text="@string/nama_lengkap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView" android:textStyle="bold"
+                />
+                <TextView
+                        android:text="@string/nama_lengkap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/nama_lengkap"
+                />
+                <TextView
+                        android:text="@string/nama_panggilan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView3" android:textStyle="bold"
+                />
+                <TextView
+                        android:text="@string/nama_lengkap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/alias"
+                />
+                <TextView
+                        android:text="@string/profesi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView4" android:textStyle="bold"
+                />
+                <TextView
+                        android:text="@string/nama_lengkap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/profesi"
+                />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+                android:text="@string/biografi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView5" android:textSize="18sp"
+                android:textStyle="bold"/>
+        <TextView
+                android:text="@string/biografi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/biografi"/>
+    </LinearLayout>
+</ScrollView>
